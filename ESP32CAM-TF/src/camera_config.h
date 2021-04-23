@@ -1,0 +1,7 @@
+#include "esp_camera.h"
+
+
+#define CAMERA_MODEL_AI_THINKER // Has PSRAM
+#define CAMERA_FRAME_SIZE      FRAMESIZE_240X240
+#define CAMERA_PIXEL_FORMAT     PIXFORMAT_GRAYSCALE
+#define VERTICAL_FLIP           1   // TRUE

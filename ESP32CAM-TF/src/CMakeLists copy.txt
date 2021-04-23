@@ -1,0 +1,5 @@
+idf_component_register(SRCS main.c  app_webserver.cpp app_camera.cpp app_machine_learning.cpp image_util.cpp
+                    INCLUDE_DIRS . 
+                    )
+
+target_link_libraries(${COMPONENT_TARGET} "-L ${CMAKE_CURRENT_SOURCE_DIR}/lib")
